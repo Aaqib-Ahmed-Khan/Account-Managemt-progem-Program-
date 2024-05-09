@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(75, 189, 255);
+     background-image: url('Business\ Finance\ market\ Hero.webp');
+      background-size: cover;
+     background-position: center center;
+     font-size: larger;
+    }
+
+
+
+#output {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #1cff99;
+    padding: 10px;
+ color: rgb(127, 223, 255);
+    text-align: left;
+}
+
+#output table tr td:before {
+    content: "Rs. ";
+    margin-right: 5px;
+    display: block;
+}
+
+#output table tr td span {
+    display: inline-block;
+    margin-left: 5px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* adjust the height to your needs */
+    color: rgb(30, 239, 191);
+  }

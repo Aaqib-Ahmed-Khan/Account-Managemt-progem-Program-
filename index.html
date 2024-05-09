@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="account-details">Account Details</h1>
+    <form id="finance-form">
+        <label for="income">Enter your income:</label>
+        <input type="number" id="income" placeholder="Enter income">
+        <br><br>
+        <label for="expense">Enter your expense:</label>
+        <input type="number" id="expense" placeholder="Enter expense">
+        <br><br>
+        <button type="submit">Calculate Savings</button>
+    </form>
+    <div id="output">
+        <h2>Finance Summary</h2>
+        <table>
+            <tr>
+                <th>Income</th>
+                <th>Expense</th>
+                <th>Saving</th>
+            </tr>
+            <tr id="summary">
+                <td id="income-td"></td>
+                <td id="expense-td"></td>
+                <td id="saving-td"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
